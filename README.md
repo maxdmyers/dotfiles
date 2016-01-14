@@ -39,7 +39,7 @@ script/bootstrap
 dot
 ```
 
-The first script will symlink all appropriate files in `.dotfiles` to your home directory. These files can be configured within `~/.dotfiles`. The second script, Dot, is a simple script that installs some dependencies, sets sane OS X defaults, and sets up the OS. Tweak this script, and occasionally run `dot` to keep your environment fresh and up-to-date. You can find this script at `bin/dot`.
+The first script will symlink all appropriate files in `.dotfiles` to your home directory. These files can be configured within `~/.dotfiles`. The second script, `dot`, is a simple script that installs some dependencies, sets sane OS X defaults, and sets up the OS. Tweak this script, and occasionally run `dot` to keep your environment fresh and up-to-date. You can find this script at `bin/dot`.
 
 ## Bugs
 
