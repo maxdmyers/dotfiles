@@ -31,24 +31,15 @@ There's a few special files in the hierarchy.
 
 ## Install
 
-To install, first run the following:
+To install, justs run the following:
 
 ```sh
 git clone https://bitbucket.org/maxdmyers/dotfiles.git ~/.dotfiles && cd ~/.dotfiles
 script/bootstrap
-```
-
-This will symlink all appropriate files in `.dotfiles` to your home directory.
-These files can be configured within `~/.dotfiles`.
-
-Next, you'll want to run:
-
-```sh
 dot
 ```
-Dot is a simple script that installs some dependencies, sets sane OS X
-defaults, and sets up the OS. Tweak this script, and occasionally run `dot` to keep your environment fresh and up-to-date. You can find
-this script at `bin/dot`.
+
+The first script will symlink all appropriate files in `.dotfiles` to your home directory. These files can be configured within `~/.dotfiles`. The second script, Dot, is a simple script that installs some dependencies, sets sane OS X defaults, and sets up the OS. Tweak this script, and occasionally run `dot` to keep your environment fresh and up-to-date. You can find this script at `bin/dot`.
 
 ## Bugs
 
