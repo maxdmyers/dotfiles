@@ -43,7 +43,7 @@ The first script will symlink all appropriate files in `.dotfiles` to your home 
 
 ## Bugs
 
-These are *my* dotfiles, so they might not work for you. However, if you're using them run into any issues with what's included, please
+These are *my* dotfiles, so they might not work for you. However, if you're using them and run into any issues with what's included, please
 [open an issue](https://bitbucket.org/maxdmyers/dotfiles/issues) on this repository.
 
 ## Thanks
