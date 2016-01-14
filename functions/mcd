@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# Create a new directory and enter it
+function mcd() {
+	mkdir -p "$@" && cd "$_";
+}
