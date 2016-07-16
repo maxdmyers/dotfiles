@@ -31,7 +31,7 @@ There's a few special files in the hierarchy.
 
 ## Install
 
-To install, justs run the following:
+To install, just run the following:
 
 ```sh
 git clone https://bitbucket.org/maxdmyers/dotfiles.git ~/.dotfiles && cd ~/.dotfiles
