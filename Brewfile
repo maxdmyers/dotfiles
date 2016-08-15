@@ -1,13 +1,15 @@
 cask_args appdir: '~/Applications'
 
 tap 'caskroom/cask'
-tap 'homebrew/bundle'
+tap 'homebrew/dupes'
+tap 'homebrew/versions'
+tap 'homebrew/homebrew-php'
 
 brew 'coreutils'
 brew 'findutils'
 brew 'git'
 brew 'homebrew/dupes/openssh'
-brew 'homebrew/php/php55', args: ['with-gmp', 'with-mcrypt']
+#brew 'php56', args: ['with-gmp', 'with-mcrypt']
 brew 'imagemagick', args: ['with-webp']
 brew 'node'
 brew 'pass'
@@ -15,7 +17,7 @@ brew 'speedtest_cli'
 brew 'unrar'
 brew 'webkit2png'
 brew 'wget', args: ['with-iri']
-brew 'woff2'
+#brew 'woff2'
 
 cask 'amazon-music'
 cask 'atom'
