@@ -13,7 +13,7 @@ files in there.
 ## What's included
 
 I'm a web developer by trade, so I've geared my dotfiles heavily towards development for the web and tools to make that job easier. You can feel free to add or remove anything you want.
-[Fork it](https://bitbucket.org/maxdmyers/dotfiles/fork).
+[Fork it](https://github.com/maxdmyers/dotfiles/fork).
 
 ## Components
 
@@ -34,7 +34,7 @@ There's a few special files in the hierarchy.
 To install, just run the following:
 
 ```sh
-git clone https://bitbucket.org/maxdmyers/dotfiles.git ~/.dotfiles && cd ~/.dotfiles
+git clone https://github.com/maxdmyers/dotfiles.git ~/.dotfiles && cd ~/.dotfiles
 script/bootstrap
 dot
 ```
@@ -44,7 +44,7 @@ The first script will symlink all appropriate files in `.dotfiles` to your home 
 ## Bugs
 
 These are *my* dotfiles, so they might not work for you. However, if you're using them and run into any issues with what's included, please
-[open an issue](https://bitbucket.org/maxdmyers/dotfiles/issues) on this repository.
+[open an issue](https://github.com/maxdmyers/dotfiles/issues) on this repository.
 
 ## Thanks
 
